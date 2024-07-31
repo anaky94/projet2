@@ -178,7 +178,27 @@ textarea {
   grid-area: bt;
 }
 
-form #btn-sumbmit{
-
-
+@media screen and ( max-width: 600px) {
+ .run{
+  display: block;
+ } 
+ .magna{
+  display: block;
+  
+ }
+ h1{
+  font-size: 2rem;
+ }
+ .tempus{
+  display: block;
+ }
+ button{
+  margin: 30px auto;
+ }
+ .image1 img{
+  display: none;
+ }
+ .image2 img{
+  display: none;
+ }
 }
