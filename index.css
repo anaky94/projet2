@@ -177,6 +177,15 @@ textarea {
 #btn-sumbmit {
   grid-area: bt;
 }
+.icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+}
+.icon img{
+  height: 30px;
+}
 
 @media screen and ( max-width: 600px) {
  .run{
